@@ -1,0 +1,24 @@
+/*
+jquery.cloudie.v1
+ Copyright by ChenX @ 2014
+ Contact me for support at
+ email : chenxeed@gmail.com
+ github : chenxeed
+*/
+
+.cloudie {
+	position: absolute; z-index: -1; top: 0; left: 0;
+	overflow: hidden;
+	width: 100%; height: 100%;	
+	background: #6699ff;
+	background: -moz-linear-gradient(top,  #6699ff 0%, #EAFFF7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6699ff), color-stop(100%,#EAFFF7));
+	background: -webkit-linear-gradient(top,  #6699ff 0%,#EAFFF7 100%);
+	background: -o-linear-gradient(top,  #6699ff 0%,#EAFFF7 100%);
+	background: -ms-linear-gradient(top,  #6699ff 0%,#EAFFF7 100%);
+	background: linear-gradient(to bottom,  #6699ff 0%,#EAFFF7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6699ff', endColorstr='#EAFFF7',GradientType=0 );
+}
+.cloudie > .cloud {
+	position: absolute; top: 100px;
+}
